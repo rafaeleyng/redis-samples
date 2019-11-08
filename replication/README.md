@@ -1,5 +1,7 @@
 # redis replication
 
+2 instances with simple replication, 1 master and 1 replica. Replica is read-only.
+
 ## usage:
 
 1. run the containers:
@@ -8,4 +10,4 @@
 	```
 
 1. open 2 consoles and test with `redis-cli`:
-	![image](https://user-images.githubusercontent.com/4842605/68435806-042f7880-019b-11ea-84eb-a17a676ffdbc.png)
+	![image](https://user-images.githubusercontent.com/4842605/68474340-dc282f80-0203-11ea-87ea-ffab303fdfcb.png)
