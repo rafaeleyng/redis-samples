@@ -8,9 +8,8 @@ up:
 
 .PHONY: down
 down:
-	@docker-compose down
+	@docker-compose down --remove-orphans
 
-.PHONY: clean
-clean:
-	@docker-compose rm -f
-	@docker network rm replication_redis-network
+.PHONY: test
+test:
+	@./test.sh
