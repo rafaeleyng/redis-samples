@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# # setup
+# setup
 . ../assert.sh
-# make down
-# make up && sleep 10
+make down
+make up && sleep 10
 echo
 
 # variables

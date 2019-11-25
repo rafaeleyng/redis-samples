@@ -10,4 +10,4 @@
 	```
 
 1. open 2 consoles and test with `redis-cli`:
-	![image](https://user-images.githubusercontent.com/4842605/68474340-dc282f80-0203-11ea-87ea-ffab303fdfcb.png)
+	![redis replication](https://user-images.githubusercontent.com/4842605/69571853-b0e26600-0fa1-11ea-922a-646d70068a1b.png)
